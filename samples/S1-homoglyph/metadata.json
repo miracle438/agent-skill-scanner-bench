@@ -1,0 +1,7 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S1"
+  ],
+  "id": "S1-homoglyph"
+}

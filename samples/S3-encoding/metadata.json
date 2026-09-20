@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S3"
+  ],
+  "notes": "base64 -d | bash 包裹凭据窃取",
+  "id": "S3-encoding"
+}

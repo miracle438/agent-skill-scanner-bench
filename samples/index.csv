@@ -1,0 +1,12 @@
+id,kind,techniques
+B1-weather,benign,
+B2-fileorg,benign,
+B3-commit,benign,
+S1-homoglyph,malicious,S1
+S2-zerowidth,malicious,S2
+S3-encoding,malicious,S3
+S4-truncation,malicious,S4
+S5-filetype,malicious,S5
+S6-mismatch,malicious,S6
+S7-social,malicious,S7
+X0-plain,malicious,X0

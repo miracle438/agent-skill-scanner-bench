@@ -1,0 +1,67 @@
+id,tool,kind,techniques,verdict,max_sev,engine,note
+X0-plain,cisco,malicious,X0,True,CRITICAL,2,is_safe=False total=3
+X0-plain,nvidia,malicious,X0,True,HIGH,6,rec=DO_NOT_INSTALL score=75
+X0-plain,huifer,malicious,X0,False,SAFE,4,risk_score=1.6 crit=4 high=0
+X0-plain,aiscan,malicious,X0,False,CLEAN,8,malicious=0 summary=No malicious findings detected
+X0-plain,claudeav,malicious,X0,False,SAFE,0,files_scanned=1
+X0-plain,hma,malicious,X0,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S1-homoglyph,cisco,malicious,S1,True,HIGH,2,is_safe=False total=3
+S1-homoglyph,nvidia,malicious,S1,True,HIGH,4,rec=DO_NOT_INSTALL score=62
+S1-homoglyph,huifer,malicious,S1,False,SAFE,2,risk_score=0.8999999999999999 crit=2 high=0
+S1-homoglyph,aiscan,malicious,S1,False,CLEAN,6,malicious=0 summary=No malicious findings detected
+S1-homoglyph,claudeav,malicious,S1,False,SAFE,0,files_scanned=1
+S1-homoglyph,hma,malicious,S1,False,GOV,3,hma-fixed: governance-only
+S2-zerowidth,cisco,malicious,S2,False,INFO,0,is_safe=True total=1
+S2-zerowidth,nvidia,malicious,S2,True,HIGH,8,rec=DO_NOT_INSTALL score=56
+S2-zerowidth,huifer,malicious,S2,False,SAFE,1,risk_score=0.35000000000000003 crit=1 high=0
+S2-zerowidth,aiscan,malicious,S2,False,CLEAN,2,malicious=0 summary=No malicious findings detected
+S2-zerowidth,claudeav,malicious,S2,True,HIGH,0,files_scanned=1
+S2-zerowidth,hma,malicious,S2,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S3-encoding,cisco,malicious,S3,True,HIGH,3,is_safe=False total=4
+S3-encoding,nvidia,malicious,S3,False,MEDIUM,2,rec=CAUTION score=30
+S3-encoding,huifer,malicious,S3,False,SAFE,0,risk_score=0.0 crit=0 high=0
+S3-encoding,aiscan,malicious,S3,False,CLEAN,2,malicious=0 summary=No malicious findings detected
+S3-encoding,claudeav,malicious,S3,False,SAFE,0,files_scanned=1
+S3-encoding,hma,malicious,S3,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S4-truncation,cisco,malicious,S4,True,CRITICAL,4,is_safe=False total=5
+S4-truncation,nvidia,malicious,S4,True,HIGH,9,rec=DO_NOT_INSTALL score=56
+S4-truncation,huifer,malicious,S4,True,LOW,8,risk_score=3.2 crit=8 high=0
+S4-truncation,aiscan,malicious,S4,False,CLEAN,17,malicious=0 summary=No malicious findings detected
+S4-truncation,claudeav,malicious,S4,True,CRITICAL,0,files_scanned=1
+S4-truncation,hma,malicious,S4,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S5-filetype,cisco,malicious,S5,True,CRITICAL,6,is_safe=False total=7
+S5-filetype,nvidia,malicious,S5,True,CRITICAL,8,rec=DO_NOT_INSTALL score=100
+S5-filetype,huifer,malicious,S5,False,SAFE,4,risk_score=1.6 crit=4 high=0
+S5-filetype,aiscan,malicious,S5,False,CLEAN,10,malicious=0 summary=No malicious findings detected
+S5-filetype,claudeav,malicious,S5,False,SAFE,0,files_scanned=1
+S5-filetype,hma,malicious,S5,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S6-mismatch,cisco,malicious,S6,True,CRITICAL,2,is_safe=False total=3
+S6-mismatch,nvidia,malicious,S6,True,HIGH,7,rec=DO_NOT_INSTALL score=77
+S6-mismatch,huifer,malicious,S6,False,SAFE,4,risk_score=1.6 crit=4 high=0
+S6-mismatch,aiscan,malicious,S6,False,CLEAN,8,malicious=0 summary=No malicious findings detected
+S6-mismatch,claudeav,malicious,S6,False,SAFE,0,files_scanned=1
+S6-mismatch,hma,malicious,S6,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+S7-social,cisco,malicious,S7,True,CRITICAL,2,is_safe=False total=3
+S7-social,nvidia,malicious,S7,True,HIGH,6,rec=DO_NOT_INSTALL score=75
+S7-social,huifer,malicious,S7,False,SAFE,4,risk_score=1.6 crit=4 high=0
+S7-social,aiscan,malicious,S7,False,CLEAN,9,malicious=0 summary=No malicious findings detected
+S7-social,claudeav,malicious,S7,False,SAFE,0,files_scanned=1
+S7-social,hma,malicious,S7,True,CRITICAL,4,hma-fixed: CRITICAL-malicious
+B1-weather,cisco,benign,,False,INFO,0,is_safe=True total=1
+B1-weather,nvidia,benign,,False,LOW,1,rec=SAFE score=7
+B1-weather,huifer,benign,,False,SAFE,1,risk_score=0.35000000000000003 crit=1 high=0
+B1-weather,aiscan,benign,,False,CLEAN,3,malicious=0 summary=No malicious findings detected
+B1-weather,claudeav,benign,,False,SAFE,0,files_scanned=1
+B1-weather,hma,benign,,False,GOV,3,hma-fixed: governance-only
+B2-fileorg,cisco,benign,,False,INFO,0,is_safe=True total=1
+B2-fileorg,nvidia,benign,,False,LOW,1,rec=SAFE score=7
+B2-fileorg,huifer,benign,,False,SAFE,0,risk_score=0.0 crit=0 high=0
+B2-fileorg,aiscan,benign,,False,CLEAN,3,malicious=0 summary=No malicious findings detected
+B2-fileorg,claudeav,benign,,False,SAFE,0,files_scanned=1
+B2-fileorg,hma,benign,,False,GOV,3,hma-fixed: governance-only
+B3-commit,cisco,benign,,False,INFO,0,is_safe=True total=1
+B3-commit,nvidia,benign,,False,LOW,0,rec=SAFE score=0
+B3-commit,huifer,benign,,False,SAFE,0,risk_score=0.0 crit=0 high=0
+B3-commit,aiscan,benign,,False,CLEAN,2,malicious=0 summary=No malicious findings detected
+B3-commit,claudeav,benign,,False,SAFE,0,files_scanned=1
+B3-commit,hma,benign,,False,GOV,3,hma-fixed: governance-only

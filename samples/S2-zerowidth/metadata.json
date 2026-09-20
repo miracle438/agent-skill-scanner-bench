@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S2"
+  ],
+  "notes": "SKILL.md 含零宽字符藏指令与 payload；setup.sh 干净",
+  "id": "S2-zerowidth"
+}

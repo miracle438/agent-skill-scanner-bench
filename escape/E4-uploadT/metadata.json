@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "X0"
+  ],
+  "notes": "明文凭据窃取+回传，无任何规避",
+  "id": "X0-plain"
+}

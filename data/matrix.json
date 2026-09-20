@@ -1,0 +1,662 @@
+[
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 2,
+    "note": "is_safe=False total=3",
+    "id": "X0-plain",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 6,
+    "note": "rec=DO_NOT_INSTALL score=75",
+    "id": "X0-plain",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 4,
+    "note": "risk_score=1.6 crit=4 high=0",
+    "id": "X0-plain",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 8,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "X0-plain",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "X0-plain",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "X0-plain",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "X0"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 2,
+    "note": "is_safe=False total=3",
+    "id": "S1-homoglyph",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 4,
+    "note": "rec=DO_NOT_INSTALL score=62",
+    "id": "S1-homoglyph",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 2,
+    "note": "risk_score=0.8999999999999999 crit=2 high=0",
+    "id": "S1-homoglyph",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 6,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S1-homoglyph",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S1-homoglyph",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 3,
+    "note": "rc=1 score=? crit=0 high=3",
+    "id": "S1-homoglyph",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S1"
+  },
+  {
+    "verdict": false,
+    "max_sev": "INFO",
+    "engine": 0,
+    "note": "is_safe=True total=1",
+    "id": "S2-zerowidth",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 8,
+    "note": "rec=DO_NOT_INSTALL score=56",
+    "id": "S2-zerowidth",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 1,
+    "note": "risk_score=0.35000000000000003 crit=1 high=0",
+    "id": "S2-zerowidth",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 2,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S2-zerowidth",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S2-zerowidth",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S2-zerowidth",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S2"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 3,
+    "note": "is_safe=False total=4",
+    "id": "S3-encoding",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": false,
+    "max_sev": "MEDIUM",
+    "engine": 2,
+    "note": "rec=CAUTION score=30",
+    "id": "S3-encoding",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "risk_score=0.0 crit=0 high=0",
+    "id": "S3-encoding",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 2,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S3-encoding",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S3-encoding",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S3-encoding",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S3"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "is_safe=False total=5",
+    "id": "S4-truncation",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 9,
+    "note": "rec=DO_NOT_INSTALL score=56",
+    "id": "S4-truncation",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": true,
+    "max_sev": "LOW",
+    "engine": 8,
+    "note": "risk_score=3.2 crit=8 high=0",
+    "id": "S4-truncation",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 17,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S4-truncation",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S4-truncation",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S4-truncation",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S4"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 6,
+    "note": "is_safe=False total=7",
+    "id": "S5-filetype",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 8,
+    "note": "rec=DO_NOT_INSTALL score=100",
+    "id": "S5-filetype",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 4,
+    "note": "risk_score=1.6 crit=4 high=0",
+    "id": "S5-filetype",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 10,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S5-filetype",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S5-filetype",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S5-filetype",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S5"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 2,
+    "note": "is_safe=False total=3",
+    "id": "S6-mismatch",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 7,
+    "note": "rec=DO_NOT_INSTALL score=77",
+    "id": "S6-mismatch",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 4,
+    "note": "risk_score=1.6 crit=4 high=0",
+    "id": "S6-mismatch",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 8,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S6-mismatch",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S6-mismatch",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S6-mismatch",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S6"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 2,
+    "note": "is_safe=False total=3",
+    "id": "S7-social",
+    "tool": "cisco",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 6,
+    "note": "rec=DO_NOT_INSTALL score=75",
+    "id": "S7-social",
+    "tool": "nvidia",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 4,
+    "note": "risk_score=1.6 crit=4 high=0",
+    "id": "S7-social",
+    "tool": "huifer",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 9,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "S7-social",
+    "tool": "aiscan",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "S7-social",
+    "tool": "claudeav",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": true,
+    "max_sev": "CRITICAL",
+    "engine": 4,
+    "note": "rc=1 score=? crit=1 high=3",
+    "id": "S7-social",
+    "tool": "hma",
+    "kind": "malicious",
+    "techniques": "S7"
+  },
+  {
+    "verdict": false,
+    "max_sev": "INFO",
+    "engine": 0,
+    "note": "is_safe=True total=1",
+    "id": "B1-weather",
+    "tool": "cisco",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "LOW",
+    "engine": 1,
+    "note": "rec=SAFE score=7",
+    "id": "B1-weather",
+    "tool": "nvidia",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 1,
+    "note": "risk_score=0.35000000000000003 crit=1 high=0",
+    "id": "B1-weather",
+    "tool": "huifer",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 3,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "B1-weather",
+    "tool": "aiscan",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "B1-weather",
+    "tool": "claudeav",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 3,
+    "note": "rc=1 score=? crit=0 high=3",
+    "id": "B1-weather",
+    "tool": "hma",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "INFO",
+    "engine": 0,
+    "note": "is_safe=True total=1",
+    "id": "B2-fileorg",
+    "tool": "cisco",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "LOW",
+    "engine": 1,
+    "note": "rec=SAFE score=7",
+    "id": "B2-fileorg",
+    "tool": "nvidia",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "risk_score=0.0 crit=0 high=0",
+    "id": "B2-fileorg",
+    "tool": "huifer",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 3,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "B2-fileorg",
+    "tool": "aiscan",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "B2-fileorg",
+    "tool": "claudeav",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 3,
+    "note": "rc=1 score=? crit=0 high=3",
+    "id": "B2-fileorg",
+    "tool": "hma",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "INFO",
+    "engine": 0,
+    "note": "is_safe=True total=1",
+    "id": "B3-commit",
+    "tool": "cisco",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "LOW",
+    "engine": 0,
+    "note": "rec=SAFE score=0",
+    "id": "B3-commit",
+    "tool": "nvidia",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "risk_score=0.0 crit=0 high=0",
+    "id": "B3-commit",
+    "tool": "huifer",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "CLEAN",
+    "engine": 2,
+    "note": "malicious=0 summary=No malicious findings detected",
+    "id": "B3-commit",
+    "tool": "aiscan",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": false,
+    "max_sev": "SAFE",
+    "engine": 0,
+    "note": "files_scanned=1",
+    "id": "B3-commit",
+    "tool": "claudeav",
+    "kind": "benign",
+    "techniques": ""
+  },
+  {
+    "verdict": true,
+    "max_sev": "HIGH",
+    "engine": 3,
+    "note": "rc=1 score=? crit=0 high=3",
+    "id": "B3-commit",
+    "tool": "hma",
+    "kind": "benign",
+    "techniques": ""
+  }
+]

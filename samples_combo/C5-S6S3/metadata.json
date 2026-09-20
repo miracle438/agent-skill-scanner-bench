@@ -1,0 +1,8 @@
+{
+  "id": "C5-S6S3",
+  "kind": "malicious",
+  "techniques": [
+    "S6",
+    "S3"
+  ]
+}

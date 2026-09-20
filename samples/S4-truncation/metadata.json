@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S4"
+  ],
+  "notes": "payload 位于 300KB 填充之后",
+  "id": "S4-truncation"
+}

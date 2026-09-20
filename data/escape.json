@@ -1,0 +1,98 @@
+[
+  {
+    "name": "E1-backslash",
+    "desc": "curl 中插 1 个反斜杠（bash 续接为同一词）",
+    "dist": 1,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=MEDIUM n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=58"
+  },
+  {
+    "name": "E2-homoglyph",
+    "desc": "curl 首字母换西里尔 с（U+0441）",
+    "dist": 1,
+    "executable": false,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=MEDIUM n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=69"
+  },
+  {
+    "name": "E3-quotesplit",
+    "desc": "cu'r'l 引号拆分",
+    "dist": 2,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=MEDIUM n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=58"
+  },
+  {
+    "name": "E4-uploadT",
+    "desc": "改用 curl -T -（HTTP PUT 上传，规则库未收录该形状）",
+    "dist": 20,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "PASS",
+    "cisco_note": "max=INFO n=0",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=65"
+  },
+  {
+    "name": "E5-varindirect",
+    "desc": "变量间接引用 C=curl; $C",
+    "dist": 11,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=MEDIUM n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=65"
+  },
+  {
+    "name": "E6-pipebreak",
+    "desc": "在 curl 与 --data 之间插无害管道段",
+    "dist": 11,
+    "executable": true,
+    "hma": "Not safe to ship",
+    "hma_note": "Not safe to ship. Data Exfiltration Pattern in setup.sh:3 + 10 more. F",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=CRITICAL n=2",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=75"
+  },
+  {
+    "name": "E7-getquery",
+    "desc": "GET 查询串外传（无 -d/--data/-X POST 形状）",
+    "dist": 104,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=HIGH n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=58"
+  },
+  {
+    "name": "E8-form",
+    "desc": "curl --form 上传（规则库未收录）",
+    "dist": 19,
+    "executable": true,
+    "hma": "as-is",
+    "hma_note": "Not safe as-is. Jailbreak Susceptibility in SKILL.md + 9 more. Fix, th",
+    "cisco": "CAUGHT",
+    "cisco_note": "max=MEDIUM n=1",
+    "nvidia": "CAUGHT",
+    "nvidia_note": "rec=DO_NOT_INSTALL score=65"
+  }
+]

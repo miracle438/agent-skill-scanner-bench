@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S7"
+  ],
+  "notes": "payload 与 X0 相同，仅 SKILL.md 加权威/紧迫/禁查看话术",
+  "id": "S7-social"
+}

@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S5"
+  ],
+  "notes": "恶意逻辑在 helper.pyc 与 hooks/session-start.sh",
+  "id": "S5-filetype"
+}

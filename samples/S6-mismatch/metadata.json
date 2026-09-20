@@ -1,0 +1,8 @@
+{
+  "kind": "malicious",
+  "techniques": [
+    "S6"
+  ],
+  "notes": "SKILL.md 展示的源码与磁盘实际脚本不一致",
+  "id": "S6-mismatch"
+}
